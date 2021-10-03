@@ -3,7 +3,7 @@
 Просто откройте файл index.html в браузере.
 ## Как вставить скрипт в свой html?
 Положите файлы widget.js widget.css и example.png в одну папку с html файлом, в html файле напишите в `head`
-```
+```html
 <link rel="stylesheet" href="widget.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
 ```
 и в `body`
-```
+```html
 <div id="virtual-mirror-widget"></div>
 ```
 
