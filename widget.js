@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
 
             }).catch(function (err) {
-                error_header.innerHTML = err.message;
+                console.log(err.message);
             })
     })
     
